@@ -7,10 +7,10 @@
     "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
-    "moduleResolution": "bundler",
+    "moduleResolution": "node", // Change to "node" for typical Node.js projects
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve",
+    "jsx": "preserve", // Or change to "react" if using JSX in React components
     "incremental": true,
     "plugins": [
       {
