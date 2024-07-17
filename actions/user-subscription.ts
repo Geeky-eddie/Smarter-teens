@@ -3,7 +3,7 @@
 import { auth, currentUser } from "@clerk/nextjs/server";
 
 import { getUserSubscription } from "@/db/queries";
-// import { stripe } from "@/lib/stripe";
+import { stripe } from "@/lib/stripe";
 import { absoluteUrl } from "@/lib/utils";
 
 const returnUrl = absoluteUrl("/shop");
