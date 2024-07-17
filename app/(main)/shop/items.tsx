@@ -1,7 +1,6 @@
 "use client";
 
 import { useTransition } from "react";
-
 import Image from "next/image";
 import { toast } from "sonner";
 
@@ -85,6 +84,66 @@ export const Items = ({
 
         <Button onClick={onUpgrade} disabled={pending} aria-disabled={pending}>
           {hasActiveSubscription ? "settings" : "upgrade"}
+        </Button>
+      </div>
+
+      <div className="flex w-full items-center gap-x-4 border-t-2 p-4 pt-8">
+        {/* Add SVG for Buy 5 hearts here */}
+        <Image src="/buy-hearts.svg" alt="Buy 5 Hearts" height={60} width={60} />
+
+        <div className="flex-1">
+          <p className="text-base font-bold text-neutral-700 lg:text-xl">
+            Buy 5 hearts for 1000 Naira
+          </p>
+        </div>
+
+        <Button onClick={() => {}} disabled={pending} aria-disabled={pending}>
+          Buy Now
+        </Button>
+      </div>
+
+      <div className="flex w-full items-center gap-x-4 border-t-2 p-4 pt-8">
+        {/* Add SVG for JAMB past questions here */}
+        <Image src="/jamb.svg" alt="JAMB" height={60} width={60} />
+
+        <div className="flex-1">
+          <p className="text-base font-bold text-neutral-700 lg:text-xl">
+            Buy JAMB past questions
+          </p>
+        </div>
+
+        <Button onClick={() => {}} disabled={pending} aria-disabled={pending}>
+          Buy Now
+        </Button>
+      </div>
+
+      <div className="flex w-full items-center gap-x-4 border-t-2 p-4 pt-8">
+        {/* Add SVG for WAEC past questions here */}
+        <Image src="/waec.svg" alt="WAEC" height={60} width={60} />
+
+        <div className="flex-1">
+          <p className="text-base font-bold text-neutral-700 lg:text-xl">
+            Buy WAEC past questions
+          </p>
+        </div>
+
+        <Button onClick={() => {}} disabled={pending} aria-disabled={pending}>
+          Buy Now
+        </Button>
+      </div>
+
+      <div className="flex w-full items-center gap-x-4 border-t-2 p-4 pt-8">
+        {/* Add SVG for NECO past questions here */}
+        <Image src="/neco.svg" alt="NECO" height={60} width={60} />
+
+        <div className="flex-1">
+          <p className="text-base font-bold text-neutral-700 lg:text-xl">
+            Buy NECO past questions
+          </p>
+        </div>
+
+        <Button onClick={() => {}} disabled={pending} aria-disabled={pending}>
+          Buy Now
         </Button>
       </div>
     </ul>
