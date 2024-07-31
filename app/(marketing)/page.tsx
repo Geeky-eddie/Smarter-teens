@@ -21,7 +21,7 @@ export default function MarketingPage() {
 
       <div className="flex flex-col items-center gap-y-8">
         <h1 className="max-w-[480px] text-center text-xl font-bold text-neutral-600 lg:text-3xl">
-Learn, practice, and master various school subjects with Smarter-Teens.
+          Learn, practice, and master various school subjects with Smarter-Teens
         </h1>
 
         <div className="flex w-full max-w-[330px] flex-col items-center gap-y-3">
@@ -33,7 +33,7 @@ Learn, practice, and master various school subjects with Smarter-Teens.
             <SignedOut>
               <SignUpButton
                 mode="modal"
-                forceRedirectUrl="/learn"
+                
                 
               >
                 <Button size="lg" variant="secondary" className="w-full">
@@ -43,7 +43,7 @@ Learn, practice, and master various school subjects with Smarter-Teens.
 
               <SignInButton
                 mode="modal"
-                forceRedirectUrl="/learn"
+                
                 
               >
                 <Button size="lg" variant="primaryOutline" className="w-full">
@@ -53,7 +53,7 @@ Learn, practice, and master various school subjects with Smarter-Teens.
             </SignedOut>
 
             <SignedIn>
-              <Button size="lg"  className="w-full bg-[#fa7606] text-white hover:text-gray-600" asChild>
+              <Button size="lg" className="w-full bg-[#fa7606] text-white hover:text-gray-600" asChild>
                 <Link href="/learn">Continue Learning</Link>
               </Button>
             </SignedIn>

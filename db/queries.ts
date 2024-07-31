@@ -33,8 +33,11 @@ export const getUserProgress = cache(async () => {
     },
   });
 
+  console.log("User Progress Data:", data); // Add this log
+
   return data;
 });
+
 
 export const getUnits = cache(async () => {
   const { userId } = auth();
