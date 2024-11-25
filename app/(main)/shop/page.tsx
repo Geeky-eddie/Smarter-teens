@@ -2,13 +2,15 @@ import Image from "next/image";
 import { redirect } from "next/navigation";
 
 import { FeedWrapper } from "@/components/feed-wrapper";
+import NativeAd from "@/components/Nativead";
 import { Quests } from "@/components/quests";
 import { StickyWrapper } from "@/components/sticky-wrapper";
 import { UserProgress } from "@/components/user-progress";
 import { getUserProgress, getUserSubscription } from "@/db/queries";
 
 import { Items } from "./items";
-import NativeAd from "@/components/Nativead";
+
+
 
 const ShopPage = async () => {
   const userProgressData = getUserProgress();

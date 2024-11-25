@@ -1,24 +1,24 @@
 import {
   ClerkLoaded,
   ClerkLoading,
-  SignInButton,
-  SignedIn,
+  // SignInButton,
+  // SignedIn,
   SignedOut,
-  UserButton,
+  // UserButton,
   
 } from "@clerk/nextjs";
 import {
-  auth,
+  // auth,
 } from "@clerk/nextjs/server";
 import { Loader } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
-import { Button } from "@/components/ui/button";
-import { links } from "@/config";
+// import { Button } from "@/components/ui/button";
+// import { links } from "@/config";
 
 export const Header = () => {
-  const { userId } = auth();
+  // const { userId } = auth();
 
   return (
     <header className="h-20 w-full border-b-2 border-slate-200 px-4">
