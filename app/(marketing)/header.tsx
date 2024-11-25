@@ -36,12 +36,12 @@ export const Header = () => {
             <Loader className="h-5 w-5 animate-spin text-muted-foreground" />
           </ClerkLoading>
           <ClerkLoaded>
-            <SignedIn>
+            {/* <SignedIn>
               <UserButton />
-            </SignedIn>
+            </SignedIn> */}
 
             <SignedOut>
-              <SignInButton
+              {/* <SignInButton
                 mode="modal"
                 forceRedirectUrl="/learn"
                 
@@ -49,10 +49,10 @@ export const Header = () => {
                 <Button size="lg" variant="ghost">
                   Login
                 </Button>
-              </SignInButton>
+              </SignInButton> */}
             </SignedOut>
 
-            <Link
+            {/* <Link
               href={links.sourceCode}
               target="_blank"
               rel="noreferrer noopener"
@@ -64,7 +64,7 @@ export const Header = () => {
                 height={20}
                 width={20}
               />
-            </Link>
+            </Link> */}
           </ClerkLoaded>
         </div>
       </div>

@@ -8,6 +8,7 @@ import { Progress } from "@/components/ui/progress";
 import { UserProgress } from "@/components/user-progress";
 import { QUESTS } from "@/constants";
 import { getUserProgress, getUserSubscription } from "@/db/queries";
+import NativeAd from "@/components/Nativead";
 
 const QuestsPage = async () => {
   const userProgressData = getUserProgress();
@@ -24,6 +25,7 @@ const QuestsPage = async () => {
 
   return (
     <div className="flex flex-row-reverse gap-[48px] px-6">
+      {/* <NativeAd /> */}
       <StickyWrapper>
         <UserProgress
           activeCourse={userProgress.activeCourse}
@@ -36,6 +38,7 @@ const QuestsPage = async () => {
 
       <FeedWrapper>
         <div className="flex w-full flex-col items-center">
+        <NativeAd />
           <Image src="/quests.svg" alt="Quests" height={90} width={90} />
 
           <h1 className="my-6 text-center text-2xl font-bold text-neutral-800">

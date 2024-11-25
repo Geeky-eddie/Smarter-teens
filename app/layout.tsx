@@ -11,6 +11,7 @@ import { Toaster } from "@/components/ui/sonner";
 import { siteConfig } from "@/config";
 
 import "./globals.css";
+import NativeAd from "@/components/Nativead";
 
 const font = Quicksand({ subsets: ["latin"] });
 
@@ -44,6 +45,7 @@ export default function RootLayout({
           <HeartsModal />
           <PracticeModal />
           {children}
+          <NativeAd />
         </body>
       </html>
     </ClerkProvider>

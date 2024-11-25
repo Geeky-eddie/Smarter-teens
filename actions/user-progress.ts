@@ -117,7 +117,7 @@ export const refillHearts = async () => {
     const currentUserProgress = await getUserProgress();
 
     if (!currentUserProgress) throw new Error("User progress not found.");
-    if (currentUserProgress.hearts === MAX_HEARTS)
+    if (currentUserProgress.hearts >= MAX_HEARTS)
       throw new Error("Hearts are already full.");
     if (currentUserProgress.points < POINTS_TO_REFILL)
       throw new Error("Not enough points.");
@@ -125,8 +125,35 @@ export const refillHearts = async () => {
     await db
       .update(userProgress)
       .set({
-        hearts: MAX_HEARTS,
+        hearts: currentUserProgress.hearts + 1,
         points: currentUserProgress.points - POINTS_TO_REFILL,
+      })
+      .where(eq(userProgress.userId, currentUserProgress.userId));
+
+    await revalidatePath("/shop");
+    await revalidatePath("/learn");
+    await revalidatePath("/quests");
+    await revalidatePath("/leaderboard");
+  } catch (error) {
+    console.error("Error in refillHearts:", error);
+    throw error;
+  }
+};
+
+export const refillHeart = async () => {
+  try {
+    const currentUserProgress = await getUserProgress();
+
+    if (!currentUserProgress) throw new Error("User progress not found.");
+    if (currentUserProgress.hearts >= MAX_HEARTS)
+      throw new Error("Hearts are already full.");
+    
+
+    await db
+      .update(userProgress)
+      .set({
+        hearts: currentUserProgress.hearts + 1,
+      
       })
       .where(eq(userProgress.userId, currentUserProgress.userId));
 

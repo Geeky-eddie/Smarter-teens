@@ -38,6 +38,9 @@
     "stripe": "^16.2.0",
     "tailwind-merge": "^2.4.0",
     "tailwindcss-animate": "^1.0.7",
+    "video.js": "^8.17.1",
+    "videojs-contrib-ads": "^7.5.2",
+    "videojs-ima": "^2.3.0",
     "zustand": "^4.5.4"
   },
   "devDependencies": {

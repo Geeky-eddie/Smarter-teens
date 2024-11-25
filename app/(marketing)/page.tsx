@@ -11,10 +11,12 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { Button } from "@/components/ui/button";
+import NativeAd from "@/components/Nativead";
 
 export default function MarketingPage() {
   return (
     <div className="mx-auto flex w-full max-w-[988px] flex-1 flex-col items-center justify-center gap-2 p-4 lg:flex-row">
+      <NativeAd />
       <div className="relative mb-8 h-[240px] w-[240px] lg:mb-0 lg:h-[424px] lg:w-[424px]">
         <Image src="/hero.svg" alt="Hero" fill />
       </div>
@@ -30,7 +32,7 @@ export default function MarketingPage() {
           </ClerkLoading>
 
           <ClerkLoaded>
-            <SignedOut>
+            {/* <SignedOut>
               <SignUpButton
                 mode="modal"
                 
@@ -50,16 +52,17 @@ export default function MarketingPage() {
                   I already have an account
                 </Button>
               </SignInButton>
-            </SignedOut>
+            </SignedOut> */}
 
-            <SignedIn>
+           
               <Button size="lg" className="w-full bg-[#fa7606] text-white hover:text-gray-600" asChild>
                 <Link href="/learn">Continue Learning</Link>
               </Button>
-            </SignedIn>
+           
           </ClerkLoaded>
         </div>
       </div>
+      <NativeAd />
     </div>
   );
 }

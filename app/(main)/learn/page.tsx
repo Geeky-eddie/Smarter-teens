@@ -15,6 +15,7 @@ import {
 
 import { Header } from "./header";
 import { Unit } from "./unit";
+import NativeAd from "@/components/Nativead";
 
 const LearnPage = async () => {
   const userProgressData = getUserProgress();
@@ -44,6 +45,7 @@ const LearnPage = async () => {
 
   return (
     <div className="flex flex-row-reverse gap-[48px] px-6">
+      {/* <NativeAd /> */}
       <StickyWrapper>
         <UserProgress
           activeCourse={userProgress.activeCourse}
@@ -60,6 +62,8 @@ const LearnPage = async () => {
         title={userProgress.activeCourse.title}
         points={userProgress.points}
          />
+         <NativeAd />
+         
         {units.map((unit) => (
           <div key={unit.id} className="mb-10">
             <Unit
