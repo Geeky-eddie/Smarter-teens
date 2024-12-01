@@ -1,18 +1,17 @@
 import {
   ClerkLoaded,
   ClerkLoading,
-  // SignInButton,
-  // SignUpButton,
-  // SignedIn,
-  // SignedOut,
+  SignInButton,
+  SignUpButton,
+  SignedIn,
+  SignedOut,
 } from "@clerk/nextjs";
 import { Loader } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
-import NativeAd from "@/components/Nativead";
 import { Button } from "@/components/ui/button";
-
+import NativeAd from "@/components/Nativead";
 
 export default function MarketingPage() {
   return (
@@ -33,7 +32,7 @@ export default function MarketingPage() {
           </ClerkLoading>
 
           <ClerkLoaded>
-            {/* <SignedOut>
+            <SignedOut>
               <SignUpButton
                 mode="modal"
                 
@@ -53,13 +52,13 @@ export default function MarketingPage() {
                   I already have an account
                 </Button>
               </SignInButton>
-            </SignedOut> */}
+            </SignedOut>
 
-           
+            <SignedIn>
               <Button size="lg" className="w-full bg-[#fa7606] text-white hover:text-gray-600" asChild>
                 <Link href="/learn">Continue Learning</Link>
               </Button>
-           
+            </SignedIn>
           </ClerkLoaded>
         </div>
       </div>

@@ -2,7 +2,6 @@ import Image from "next/image";
 import { redirect } from "next/navigation";
 
 import { FeedWrapper } from "@/components/feed-wrapper";
-import NativeAd from "@/components/Nativead";
 import { Promo } from "@/components/promo";
 import { Quests } from "@/components/quests";
 import { StickyWrapper } from "@/components/sticky-wrapper";
@@ -14,7 +13,7 @@ import {
   getUserProgress,
   getUserSubscription,
 } from "@/db/queries";
-
+import NativeAd from "@/components/Nativead";
 
 const LeaderboardPage = async () => {
   const userProgressData = getUserProgress();

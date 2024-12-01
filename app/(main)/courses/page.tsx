@@ -1,9 +1,7 @@
-import NativeAd from "@/components/Nativead";
 import { getCourses, getUserProgress } from "@/db/queries";
 
 import { List } from "./list";
-
-
+import NativeAd from "@/components/Nativead";
 
 const CoursesPage = async () => {
   const coursesData = getCourses();

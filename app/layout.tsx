@@ -7,11 +7,11 @@ import "dotenv/config";
 import { ExitModal } from "@/components/modals/exit-modal";
 import { HeartsModal } from "@/components/modals/hearts-modal";
 import { PracticeModal } from "@/components/modals/practice-modal";
-import NativeAd from "@/components/Nativead";
 import { Toaster } from "@/components/ui/sonner";
 import { siteConfig } from "@/config";
-import "./globals.css";
 
+import "./globals.css";
+import NativeAd from "@/components/Nativead";
 
 const font = Quicksand({ subsets: ["latin"] });
 
