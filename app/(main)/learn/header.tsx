@@ -20,9 +20,9 @@ export const Header = ({ title, points }: HeaderProps) => {
       <h1 className="text-lg font-bold">{title}</h1>
       
       {/* Display points */}
-      {/* <div className="flex items-center font-bold text-blue-500">
+      <div className="flex items-center font-bold text-blue-500">
         Points here: {points}
-      </div> */}
+      </div>
     </div>
   );
 };

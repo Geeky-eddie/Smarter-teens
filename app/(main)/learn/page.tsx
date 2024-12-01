@@ -1,6 +1,7 @@
 import { redirect } from "next/navigation";
 
 import { FeedWrapper } from "@/components/feed-wrapper";
+import NativeAd from "@/components/Nativead";
 import { Promo } from "@/components/promo";
 import { Quests } from "@/components/quests";
 import { StickyWrapper } from "@/components/sticky-wrapper";
@@ -15,7 +16,6 @@ import {
 
 import { Header } from "./header";
 import { Unit } from "./unit";
-import NativeAd from "@/components/Nativead";
 
 const LearnPage = async () => {
   const userProgressData = getUserProgress();
