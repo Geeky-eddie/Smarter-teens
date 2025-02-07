@@ -2,13 +2,14 @@ import Image from "next/image";
 import { redirect } from "next/navigation";
 
 import { FeedWrapper } from "@/components/feed-wrapper";
-import NativeAd from "@/components/Nativead";
+
 import { Promo } from "@/components/promo";
 import { StickyWrapper } from "@/components/sticky-wrapper";
 import { Progress } from "@/components/ui/progress";
 import { UserProgress } from "@/components/user-progress";
 import { QUESTS } from "@/constants";
 import { getUserProgress, getUserSubscription } from "@/db/queries";
+
 
 
 const QuestsPage = async () => {
@@ -26,7 +27,7 @@ const QuestsPage = async () => {
 
   return (
     <div className="flex flex-row-reverse gap-[48px] px-6">
-      {/* <NativeAd /> */}
+   
       <StickyWrapper>
         <UserProgress
           activeCourse={userProgress.activeCourse}
@@ -39,7 +40,7 @@ const QuestsPage = async () => {
 
       <FeedWrapper>
         <div className="flex w-full flex-col items-center">
-        <NativeAd />
+       
           <Image src="/quests.svg" alt="Quests" height={90} width={90} />
 
           <h1 className="my-6 text-center text-2xl font-bold text-neutral-800">
