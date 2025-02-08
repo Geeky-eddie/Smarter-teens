@@ -70,7 +70,7 @@ const LeaderboardPage = async () => {
             >
               <p className="mr-4 font-bold text-lime-700">{i + 1}</p>
 
-              <Avatar className="ml-3 mr-6 h-12 w-12 border bg-[#fa7606]">
+              <Avatar className="ml-3 mr-6 h-12 w-12 border bg-[#2196F3]">
                 <AvatarImage
                   src={userProgress.userImageSrc}
                   className="object-cover"
@@ -80,7 +80,7 @@ const LeaderboardPage = async () => {
               <p className="flex-1 font-bold text-neutral-800">
                 {userProgress.userName}
               </p>
-              <p className="text-muted-foreground font-semibold text-orange-500">{userProgress.points} XP</p>
+              <p className=" font-semibold text-blue-500">{userProgress.points} XP</p>
             </div>
           ))}
         </div>

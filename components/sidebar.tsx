@@ -21,10 +21,10 @@ export const Sidebar = ({ className }: SidebarProps) => {
     >
       <Link href="/learn">
         <div className="flex items-center gap-x-3 pb-7 pl-4 pt-8">
-          <Image src="/header1.jpg" alt="Mascot" height={40} width={40} />
+          <Image src="/climatelogo.jpg" alt="Mascot" height={40} width={40} />
 
-          <h1 className="text-2xl font-extrabold tracking-wide text-[#fa7606]">
-          Smarter-Teens
+          <h1 className="text-2xl font-extrabold tracking-wide text-[#2196F3]">
+          Climate Action Club
           </h1>
         </div>
       </Link>

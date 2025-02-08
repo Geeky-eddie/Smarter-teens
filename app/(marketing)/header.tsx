@@ -24,10 +24,10 @@ export const Header = () => {
     <header className="h-20 w-full border-b-2 border-slate-200 px-4">
       <div className="mx-auto flex h-full items-center justify-between lg:max-w-screen-lg">
         <Link href="/" className="flex items-center gap-x-3 pb-7 pl-4 pt-8">
-          <Image src="/header1.jpg" alt="Logo" height={40} width={40} />
+          <Image src="/climatelogo.jpg" alt="Logo" height={40} width={40} />
 
-          <h1 className="text-2xl font-extrabold tracking-wide text-[#fa7606]">
-            Smarter-Teens
+          <h1 className="text-2xl font-extrabold tracking-wide text-[#2196F3]">
+          Climate Action Club
           </h1>
         </Link>
 
