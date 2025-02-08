@@ -43,7 +43,7 @@ export const Header = () => {
             <SignedOut>
               <SignInButton
                 mode="modal"
-                forceRedirectUrl="/learn"
+                forceRedirectUrl="/courses"
                 
               >
                 <Button size="lg" variant="ghost">

@@ -19,7 +19,7 @@ export const Sidebar = ({ className }: SidebarProps) => {
         className
       )}
     >
-      <Link href="/learn">
+      <Link href="/courses">
         <div className="flex items-center gap-x-3 pb-7 pl-4 pt-8">
           <Image src="/climatelogo.jpg" alt="Mascot" height={40} width={40} />
 

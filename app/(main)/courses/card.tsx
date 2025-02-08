@@ -3,6 +3,7 @@ import Image from "next/image";
 
 import { cn } from "@/lib/utils";
 import Header1 from "@/public/header1.jpg"
+import Link from "next/link";
 
 type CardProps = {
   title: string;
@@ -24,9 +25,8 @@ export const Card = ({
   return (
     <>
   
-  <a
-        href="/ClimateActionManual.pdf" 
-        target="_blank"
+  <Link
+  href="/manual" 
         rel="noopener noreferrer"
         className={cn(
           "flex h-full min-h-[217px] min-w-[200px] cursor-pointer flex-col items-center justify-between rounded-xl border-2 border-b-[4px] p-3 pb-6 hover:bg-black/5 active:border-b-2",
@@ -50,7 +50,7 @@ export const Card = ({
         />
 
         <p className="mt-3 text-center font-bold text-neutral-700">Read material</p>
-      </a>
+      </Link>
 
       {/* Second card with onClick handler */}
       <div
