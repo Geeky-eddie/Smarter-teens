@@ -33,7 +33,7 @@ export const getUserProgress = cache(async () => {
     },
   });
 
-  console.log("User Progress Data:", data); // Add this log
+  console.log("User Progress Data:", data);
 
   return data;
 });
