@@ -55,7 +55,7 @@ export default function MarketingPage() {
             </SignedOut>
 
             <SignedIn>
-              <Button size="lg" className="w-full bg-[#fa7606] text-white hover:text-gray-600" asChild>
+              <Button size="lg" className="w-full bg-blue-500 text-white hover:text-gray-600" asChild>
                 <Link href="/learn">Continue Learning</Link>
               </Button>
             </SignedIn>
