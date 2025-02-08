@@ -1,7 +1,6 @@
 import { redirect } from "next/navigation";
 
 import { FeedWrapper } from "@/components/feed-wrapper";
-import NativeAd from "@/components/Nativead";
 import { Promo } from "@/components/promo";
 import { Quests } from "@/components/quests";
 import { StickyWrapper } from "@/components/sticky-wrapper";
@@ -45,7 +44,7 @@ const LearnPage = async () => {
 
   return (
     <div className="flex flex-row-reverse gap-[48px] px-6">
-      {/* <NativeAd /> */}
+   
       <StickyWrapper>
         <UserProgress
           activeCourse={userProgress.activeCourse}
@@ -62,7 +61,7 @@ const LearnPage = async () => {
         title={userProgress.activeCourse.title}
         points={userProgress.points}
          />
-         <NativeAd />
+      
          
         {units.map((unit) => (
           <div key={unit.id} className="mb-10">

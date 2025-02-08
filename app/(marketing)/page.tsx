@@ -10,14 +10,13 @@ import { Loader } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
-import NativeAd from "@/components/Nativead";
 import { Button } from "@/components/ui/button";
 
 
 export default function MarketingPage() {
   return (
     <div className="mx-auto flex w-full max-w-[988px] flex-1 flex-col items-center justify-center gap-2 p-4 lg:flex-row">
-      <NativeAd />
+    
       <div className="relative mb-8 h-[240px] w-[240px] lg:mb-0 lg:h-[424px] lg:w-[424px]">
         <Image src="/hero.svg" alt="Hero" fill />
       </div>
@@ -63,7 +62,7 @@ export default function MarketingPage() {
           </ClerkLoaded>
         </div>
       </div>
-      <NativeAd />
+      
     </div>
   );
 }

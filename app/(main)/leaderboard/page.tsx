@@ -2,7 +2,6 @@ import Image from "next/image";
 import { redirect } from "next/navigation";
 
 import { FeedWrapper } from "@/components/feed-wrapper";
-import NativeAd from "@/components/Nativead";
 import { Promo } from "@/components/promo";
 import { Quests } from "@/components/quests";
 import { StickyWrapper } from "@/components/sticky-wrapper";
@@ -46,7 +45,7 @@ const LeaderboardPage = async () => {
 
       <FeedWrapper>
         <div className="flex w-full flex-col items-center">
-        <NativeAd />
+        
           <Image
             src="/leaderboard.svg"
             alt="Leaderboard"
@@ -62,7 +61,7 @@ const LeaderboardPage = async () => {
           </p>
 
           <Separator className="mb-4 h-0.5 rounded-full" />
-          <NativeAd />
+          
           {leaderboard.map((userProgress, i) => (
             <div
               key={userProgress.userId}
