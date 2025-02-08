@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const siteConfig: Metadata = {
-  title: "Smarter-Teens",
+  title: "Climate Action Club",
   description:
-    "Interactive platform for subjects learning with lessons, quizzes, and progress tracking.",
+    "Interactive learning platform for Climate Action Club.",
   keywords: [
     "reactjs",
     "nextjs",
@@ -46,5 +46,5 @@ export const siteConfig: Metadata = {
 } as const;
 
 export const links = {
-  sourceCode: "https://x.com/Geekyeddie",
+  sourceCode: "https://x.com",
 } as const;
