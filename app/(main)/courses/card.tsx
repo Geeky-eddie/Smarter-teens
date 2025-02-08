@@ -1,9 +1,10 @@
 import { Check } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 import { cn } from "@/lib/utils";
 import Header1 from "@/public/header1.jpg"
-import Link from "next/link";
+
 
 type CardProps = {
   title: string;

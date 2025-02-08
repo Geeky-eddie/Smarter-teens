@@ -96,7 +96,7 @@ const ClimateActionManual: React.FC = () => {
           <li><strong>Increased Livestock Production:</strong> Rearing livestock, particularly cattle, produces methane through enteric fermentation and manure decomposition.</li>
         </ul>
         <p className="mb-4">
-          These activities enhance the natural bluehouse effect, trapping more heat in the Earth's atmosphere and leading to global warming. It's important to address these human-induced causes to mitigate the impacts of climate change.
+          These activities enhance the natural bluehouse effect, trapping more heat in the Earths atmosphere and leading to global warming. Its important to address these human-induced causes to mitigate the impacts of climate change.
         </p>
         <h3 className="text-xl font-bold text-blue-700 mb-2">IMPACT OF CLIMATE CHANGE ON THE ENVIRONMENT</h3>
         <p className="mb-4">
@@ -185,7 +185,7 @@ const ClimateActionManual: React.FC = () => {
         </p>
         <h3 className="text-xl font-bold text-blue-700 mb-2">THE IMPACT OF GENDER STEREOTYPES, CULTURAL NORMS, AND INSTITUTIONALIZED DISCRIMINATION ON INDIVIDUALS AND COMMUNITIES</h3>
         <p className="mb-4">
-          <strong>Psychological Well-being:</strong> Gender stereotypes and cultural norms can lead to internalized beliefs about one's worth, capabilities, and role in society, causing stress, anxiety, and low self-esteem, particularly among marginalized individuals.
+          <strong>Psychological Well-being:</strong> Gender stereotypes and cultural norms can lead to internalized beliefs about ones worth, capabilities, and role in society, causing stress, anxiety, and low self-esteem, particularly among marginalized individuals.
         </p>
         <p className="mb-4">
           <strong>Career Opportunities:</strong> Institutionalized discrimination based on gender can limit career advancement and economic opportunities for individuals, contributing to wage gaps, occupational segregation, and glass ceilings.
@@ -236,7 +236,7 @@ const ClimateActionManual: React.FC = () => {
         </p>
         <h3 className="text-xl font-bold text-blue-700 mb-2">RELEVANCE OF SDGS TO CLIMATE ACTION AND ADVOCACY</h3>
         <p className="mb-4">
-          The Sustainable Development Goals (SDGs) are highly relevant to climate action and advocacy as they provide a comprehensive framework for addressing environmental sustainability, social equity, and economic development. Here's how the SDGs intersect with climate action and advocacy:
+          The Sustainable Development Goals (SDGs) are highly relevant to climate action and advocacy as they provide a comprehensive framework for addressing environmental sustainability, social equity, and economic development. Heres how the SDGs intersect with climate action and advocacy:
         </p>
         <ul className="list-disc list-inside space-y-2 mb-4">
           <li><strong>SDG 7: Affordable and Clean Energy:</strong> Access to affordable and clean energy is crucial for reducing dependence on fossil fuels and mitigating climate change. SDG 7 promotes the use of renewable energy sources.</li>
@@ -320,7 +320,7 @@ const ClimateActionManual: React.FC = () => {
         </ul>
         <h3 className="text-xl font-bold text-blue-700 mb-2">OVERVIEW OF EFFECTIVE ADVOCACY STRATEGIES FOR PROMOTING SUSTAINABLE PRACTICES</h3>
         <p className="mb-4">
-          Advocacy for promoting sustainable practices involves strategic efforts to influence policies, behaviors, and attitudes towards environmentally friendly and socially responsible actions. Here's an overview of effective advocacy strategies in this context:
+          Advocacy for promoting sustainable practices involves strategic efforts to influence policies, behaviors, and attitudes towards environmentally friendly and socially responsible actions. Heres an overview of effective advocacy strategies in this context:
         </p>
         <ul className="list-disc list-inside space-y-2 mb-4">
           <li><strong>Raise Awareness:</strong> Develop campaigns to educate the public, policymakers, and stakeholders about the importance of sustainable practices, emphasizing the environmental, social, and economic benefits.</li>
@@ -409,7 +409,7 @@ const ClimateActionManual: React.FC = () => {
           <li><strong>Ocean Acidification:</strong> Approximately one-fourth of the CO2 emitted by human activities is absorbed by the oceans. This leads to ocean acidification, which harms marine life, particularly organisms with calcium carbonate shells or skeletons like corals, shellfish, and plankton.</li>
           <li><strong>Impact on Ecosystems:</strong> Climate change driven by CO2 emissions can disrupt ecosystems, leading to habitat loss, shifts in species distribution, and loss of biodiversity. This can have cascading effects on food chains and ecosystem services upon which human societies depend.</li>
           <li><strong>Health Effects:</strong> Carbon-based pollutants, including carbon monoxide (CO) and particulate matter (PM), contribute to air pollution, which negatively impacts human health and ecosystems. Breathing polluted air can cause respiratory diseases, cardiovascular problems, and premature death and other health issues, particularly in vulnerable populations such as children, the elderly, and those with pre-existing health conditions.</li>
-          <li><strong>Deforestation:</strong> Deforestation and land-use changes release carbon stored in forests into the atmosphere, contributing to carbon emissions and reducing the planet's capacity to absorb CO2 through photosynthesis.</li>
+          <li><strong>Deforestation:</strong> Deforestation and land-use changes release carbon stored in forests into the atmosphere, contributing to carbon emissions and reducing the planets capacity to absorb CO2 through photosynthesis.</li>
           <li><strong>Economic Costs:</strong> The impacts of CO2 emissions on the environment can have significant economic costs, including damage to infrastructure, loss of agricultural productivity, increased healthcare expenses, and loss of livelihoods in sectors such as fishing and agriculture.</li>
         </ul>
         <p className="mb-4">
@@ -426,7 +426,7 @@ const ClimateActionManual: React.FC = () => {
           <li><strong>Consider your travel:</strong> Airplanes produce large amounts of bluehouse gases into the atmosphere. Taking fewer flights is one of the fastest ways to reduce environmental impact. Where possible, maximize virtual meetings, take a train, or skip the trip.</li>
           <li><strong>Throw away less food:</strong> Food rotted on land produces a powerful bluehouse gas called methane. When you throw food away, you are wasting the resources and energy that were used to grow, produce, package, and transport it.</li>
           <li><strong>Reduce, reuse, repair, and recycle:</strong> Fabrics, electronics, and other items we buy cause the emission of carbon at each point in production. To protect our climate, buy fewer things, shop second-hand, repair what you can, and recycle.</li>
-          <li><strong>Change your home's source of energy:</strong> Ask your utility company if your home energy comes from oil, coal, or gas. If possible, see if you can switch to renewable sources such as wind or solar. There are affordable solar panels you can put on your roof to generate energy for your home.</li>
+          <li><strong>Change your homes source of energy:</strong> Ask your utility company if your home energy comes from oil, coal, or gas. If possible, see if you can switch to renewable sources such as wind or solar. There are affordable solar panels you can put on your roof to generate energy for your home.</li>
           <li><strong>Switch to an electric vehicle:</strong> Consider buying an electric car if you plan to buy one. Electric cars help reduce air pollution and cause significantly fewer bluehouse gas emissions than gas or diesel-powered vehicles.</li>
           <li><strong>Make your money count:</strong> Everything we spend money on affects the planet. To reduce your environmental impact, buy local and seasonal foods and choose products from companies who use resources responsibly and are committed to cutting their gas emissions and waste.</li>
           <li><strong>Speak up:</strong> Speak up and get others to join in taking action. It is one of the quickest and most effective ways to make a difference. Climate action is a task for all of us. Talk to friends, family, leaders, et al to act now. Design initiative programs to advocate for a healthy environment.</li>
@@ -454,13 +454,13 @@ const ClimateActionManual: React.FC = () => {
           <li><strong>Policy Support:</strong> The Nigerian government has shown commitment to the Great blue Wall initiative by implementing supportive policies and providing resources for its implementation. This includes the establishment of institutional frameworks, funding mechanisms, and partnerships with international organizations and donors.</li>
         </ul>
         <p className="mb-4">
-          Overall, the achievements of the Great blue Wall initiative in Nigeria by 2024 demonstrate progress towards the goals of combating desertification, improving land management, and promoting sustainable development in the country's northern regions. However, continued efforts and investment will be needed to sustain and scale up these achievements in the years to come.
+          Overall, the achievements of the Great blue Wall initiative in Nigeria by 2024 demonstrate progress towards the goals of combating desertification, improving land management, and promoting sustainable development in the countrys northern regions. However, continued efforts and investment will be needed to sustain and scale up these achievements in the years to come.
         </p>
         <h3 className="text-xl font-bold text-blue-700 mb-2">Activity Plan</h3>
         <ul className="list-disc list-inside space-y-2 mb-4">
           <li>Learners should map their communities and identify issues.</li>
           <li>Learners should discuss and generate different ideas to a solution in their community issues.</li>
-          <li>Share their action plans with the world's largest lessons.</li>
+          <li>Share their action plans with the worlds largest lessons.</li>
         </ul>
       </section>
 
@@ -542,7 +542,7 @@ const ClimateActionManual: React.FC = () => {
         </p>
         <h3 className="text-xl font-bold text-blue-700 mb-2">SUMMARY</h3>
         <p className="mb-4">
-          Throughout this journey, we have explored crucial concepts and practical strategies for addressing environmental challenges and fostering sustainable practices. In conclusion, let's reflect on the key insights we've gained:
+          Throughout this journey, we have explored crucial concepts and practical strategies for addressing environmental challenges and fostering sustainable practices. In conclusion, lets reflect on the key insights weve gained:
         </p>
         <ul className="list-disc list-inside space-y-2 mb-4">
           <li><strong>Importance of Collective Action:</strong> Climate change and sustainable development require collective effort. By working together, we can amplify our impact and create meaningful change at local, national, and global levels.</li>
@@ -550,10 +550,10 @@ const ClimateActionManual: React.FC = () => {
           <li><strong>Commitment to Sustainable Practices:</strong> Sustainable development involves balancing economic, social, and environmental priorities. By embracing sustainable practices in our daily lives and promoting blue initiatives, we can contribute to a healthier planet for current and future generations.</li>
         </ul>
         <p className="mb-4">
-          As you embark on your journey as climate advocates and champions of sustainability, remember that your actions matter. Whether it's participating in community clean-up events, advocating for renewable energy policies, or promoting eco-friendly practices in your workplace, every effort counts. I encourage you to stay informed, stay engaged, and continue learning about climate action and sustainable development. Together, we can build a more resilient and sustainable future for all.
+          As you embark on your journey as climate advocates and champions of sustainability, remember that your actions matter. Whether its participating in community clean-up events, advocating for renewable energy policies, or promoting eco-friendly practices in your workplace, every effort counts. I encourage you to stay informed, stay engaged, and continue learning about climate action and sustainable development. Together, we can build a more resilient and sustainable future for all.
         </p>
         <p className="mb-4">
-          Thank you for your dedication and commitment to making a difference. Let's work together to create a blueer, more sustainable world.
+          Thank you for your dedication and commitment to making a difference. Lets work together to create a blueer, more sustainable world.
         </p>
       </section>
     </div>
