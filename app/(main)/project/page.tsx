@@ -6,15 +6,21 @@ import Image from "next/image";
 
 const images = [
   "https://is7tai1wim.ufs.sh/f/QVO6Qx1nmSgLZYwMSZ2vxIKbf5HP786CAD3UTizeLcunXgQ1",
+  "https://is7tai1wim.ufs.sh/f/QVO6Qx1nmSgL8hjuM0sMmsRyroXSU172xjfe94HG6gp3l0va",
   "https://is7tai1wim.ufs.sh/f/QVO6Qx1nmSgL6eP0N5357NpnBQihcjvOx86VmWGJbKgPz1Sy",
-  "https://is7tai1wim.ufs.sh/f/QVO6Qx1nmSgLG2H3HvJYIBchDetdlziMZ8s6VUkq7WogTf9O",
-  "https://is7tai1wim.ufs.sh/f/QVO6Qx1nmSgLenkwwsVXA7cmzq0pKyUOnub5RGxHXwN6v89Y",
+  "https://is7tai1wim.ufs.sh/f/QVO6Qx1nmSgLRVVKUL48rITC3AcWL9sY7gQj1du5fVO8FnEx",
+  "https://is7tai1wim.ufs.sh/f/QVO6Qx1nmSgL8ndkzAsMmsRyroXSU172xjfe94HG6gp3l0va",
+  "https://is7tai1wim.ufs.sh/f/QVO6Qx1nmSgLQV8AkO1nmSgLH8aOfeA92YVCbiBDrGXZlUQo",
   "https://is7tai1wim.ufs.sh/f/QVO6Qx1nmSgLa7732jQ0exu3JRmPfQalwBhoDrXWTHybOqVZ",
   "https://is7tai1wim.ufs.sh/f/QVO6Qx1nmSgLlAa5mXMlQVp9ORZzedEnwxN5q8ra14DWu3s0",
-  "https://is7tai1wim.ufs.sh/f/QVO6Qx1nmSgLRVVKUL48rITC3AcWL9sY7gQj1du5fVO8FnEx",
-  "https://is7tai1wim.ufs.sh/f/QVO6Qx1nmSgL8hjuM0sMmsRyroXSU172xjfe94HG6gp3l0va",
-  "https://is7tai1wim.ufs.sh/f/QVO6Qx1nmSgLQV8AkO1nmSgLH8aOfeA92YVCbiBDrGXZlUQo",
-  "https://is7tai1wim.ufs.sh/f/QVO6Qx1nmSgL8ndkzAsMmsRyroXSU172xjfe94HG6gp3l0va",
+  "https://is7tai1wim.ufs.sh/f/QVO6Qx1nmSgLG2H3HvJYIBchDetdlziMZ8s6VUkq7WogTf9O",
+  "https://is7tai1wim.ufs.sh/f/QVO6Qx1nmSgLenkwwsVXA7cmzq0pKyUOnub5RGxHXwN6v89Y",
+  
+  
+  
+  
+  
+  
 ];
 
 const ImageCarousel: React.FC = () => {

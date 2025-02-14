@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 const ClimateActionManual: React.FC = () => {
@@ -147,6 +148,13 @@ const ClimateActionManual: React.FC = () => {
           <li>Invite guest speakers to share their expertise and inspire students to get involved in climate change.</li>
           <li>Organize community service projects focused on environmental conservation and sustainability such as tree planting.</li>
         </ul>
+        <div className="relative mt-6 w-full h-64 bg-gray-300 flex items-center justify-center">
+        <Image 
+  alt="image"
+  src="/img1.jpg"
+  fill
+/>
+</div>
       </section>
 
       {/* Gender and Social Inclusion Section */}
@@ -213,6 +221,13 @@ const ClimateActionManual: React.FC = () => {
           <li>Act a drama that is gender inclusive.</li>
           <li>Celebrate achievements and successes in promoting GESI through storytelling initiatives.</li>
         </ul>
+        <div className="relative mt-6 w-full h-64 bg-gray-300 flex items-center justify-center">
+        <Image 
+  alt="image"
+  src="/img3.jpg"
+  fill
+/>
+</div>
       </section>
 
       {/* Sustainable Development Goals Section */}
@@ -299,6 +314,13 @@ const ClimateActionManual: React.FC = () => {
           <li>To end the lesson, ask each learner to write a sentence reflecting their views on the SDGs.</li>
           <li>Divide participants into groups of 4; give each an exercise sheet and have them draw and name the 17 SDGs.</li>
         </ul>
+        <div className="relative mt-6 w-full h-64 bg-gray-300 flex items-center justify-center">
+        <Image 
+  alt="image"
+  src="/img2.jpg"
+  fill
+/>
+</div>
       </section>
 
       {/* Advocacy on Climate Change Section */}
@@ -378,6 +400,9 @@ const ClimateActionManual: React.FC = () => {
           <li>Do a research about the environment.</li>
           <li>Each learner should identify which renewable energy is associated with the 17 sustainable development goals.</li>
         </ul>
+        <div className="relative mt-6 w-full h-64 bg-gray-300 flex items-center justify-center">
+      
+</div>
       </section>
 
       {/* Air Quality Section */}
@@ -462,6 +487,13 @@ const ClimateActionManual: React.FC = () => {
           <li>Learners should discuss and generate different ideas to a solution in their community issues.</li>
           <li>Share their action plans with the worlds largest lessons.</li>
         </ul>
+        <div className="relative mt-6 w-full h-64 bg-gray-300 flex items-center justify-center">
+       <Image 
+  alt="image"
+  src="/img4.jpg"
+  fill
+/>
+</div>
       </section>
 
       {/* Skill Development Section */}
@@ -555,6 +587,9 @@ const ClimateActionManual: React.FC = () => {
         <p className="mb-4">
           Thank you for your dedication and commitment to making a difference. Lets work together to create a blueer, more sustainable world.
         </p>
+        <div className="relative mt-6 w-full h-64 bg-gray-300 flex items-center justify-center">
+        
+</div>
       </section>
     </div>
   );
