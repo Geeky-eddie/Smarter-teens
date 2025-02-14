@@ -405,9 +405,7 @@ const ClimateActionManual: React.FC = () => {
           <li>Do a research about the environment.</li>
           <li>Each learner should identify which renewable energy is associated with the 17 sustainable development goals.</li>
         </ul>
-        <div className="relative mt-6 w-full h-64 bg-gray-300 flex items-center justify-center">
-      
-</div>
+        
       </section>
 
       {/* Air Quality Section */}
